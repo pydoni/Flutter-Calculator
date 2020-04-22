@@ -1,6 +1,6 @@
 # Flutter-Calculator
 
-A old school basic calculator made in flutter.
+An old school basic calculator made with flutter.
 
 ## Used libraries
 
