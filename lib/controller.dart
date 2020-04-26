@@ -64,9 +64,18 @@ abstract class ControllerBase with Store{
             equacaoExibida = "";
           }
 
-          print(valor);
-          equacaoExibida += valor ;
-          print(equacaoExibida);
+          if (valor == "÷"){
+            equacaoExibida += "/";
+          }else if(valor == "×"){
+            equacaoExibida += "*";
+          }
+           else{
+            print(valor);
+            equacaoExibida += valor ;
+            print(equacaoExibida);
+          }
+
+
 
         }
 
